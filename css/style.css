@@ -278,14 +278,15 @@ body {
 }
 .layanan .row h3 {
   font-size: 130%;
-  text-align: center;
+  text-align: left;
 }
 .layanan .row .layanan-card p {
-  text-align: center;
+  text-align: left;
   max-width: 30rem;
   margin: auto;
   font-weight: 300;
   line-height: 1.6;
+  justify-content: center;
 }
 .layanan {
   margin-bottom: 2rem;
@@ -519,6 +520,9 @@ footer .footer-left p {
   #menu {
     display: inline-block;
   }
+  .navbar img {
+    width: 180px;
+  }
   .navbar .navbar-nav {
     position: absolute;
     top: 100%;
@@ -544,6 +548,15 @@ footer .footer-left p {
   .navbar .navbar-nav a:hover::after {
     transform: scaleX(0.2);
   }
+  .hero {
+    background-size: contain;
+  }
+  .about {
+    margin-top: -25rem;
+  }
+  .hero .content .cta {
+    margin-top: 15rem;
+  }
 
   .about .row {
     flex-wrap: wrap;
@@ -559,9 +572,14 @@ footer .footer-left p {
   .about .row .content h3 {
     margin-top: 1rem;
     font-size: 2rem;
+    color: var(--primary);
   }
   .about .row .content p {
     font-size: 1.6rem;
+  }
+  .about .row .content p span {
+    font-size: 1.4rem;
+    font-weight: bold;
   }
   .about .service {
     flex-wrap: wrap;
@@ -574,6 +592,15 @@ footer .footer-left p {
   .product p {
     font-size: 1.2rem;
   }
+  .layanan .row .layanan-card .icon {
+    size: 1000px;
+  }
+  .layanan .row h3 {
+    font-size: 150%;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
   /* Responsive Footer */
   .footer-distributed .footer-left,
   .footer-distributed .footer-center,
@@ -581,7 +608,7 @@ footer .footer-left p {
     display: block;
     width: 100%;
     margin-bottom: 40px;
-    text-align: center;
+    text-align: left;
   }
 
   .footer-distributed .footer-center i {
@@ -592,6 +619,15 @@ footer .footer-left p {
 @media (max-width: 450px) {
   html {
     font-size: 55%;
+  }
+  .hero {
+    background-size: contain;
+  }
+  .about {
+    margin-top: -45rem;
+  }
+  .hero .content .cta {
+    margin-top: -8rem;
   }
 }
 /* Bintang Testimoni Section */

@@ -318,6 +318,9 @@ body {
   #menu {
     display: inline-block;
   }
+  .navbar img {
+    width: 180px;
+  }
   .navbar .navbar-nav {
     position: absolute;
     top: 100%;
@@ -346,6 +349,9 @@ body {
   .product p {
     font-size: 1.2rem;
   }
+  .info h4 {
+    font-weight: 400;
+  }
 
   /* Responsive Footer */
   .footer-distributed .footer-left,
@@ -354,7 +360,7 @@ body {
     display: block;
     width: 100%;
     margin-bottom: 40px;
-    text-align: center;
+    text-align: left;
   }
 
   .footer-distributed .footer-center i {
@@ -365,5 +371,8 @@ body {
 @media (max-width: 450px) {
   html {
     font-size: 55%;
+  }
+  .info {
+    font-weight: 300;
   }
 }
