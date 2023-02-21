@@ -588,6 +588,7 @@ footer .footer-left p {
     height: 15rem;
     object-fit: cover;
     object-position: center;
+    margin-bottom: 2rem;
   }
   .product p {
     font-size: 1.2rem;
@@ -625,6 +626,9 @@ footer .footer-left p {
   }
   .about {
     margin-top: -45rem;
+  }
+  .about .service .service-card img {
+    margin-bottom: 1rem;
   }
   .hero .content .cta {
     margin-top: -8rem;
